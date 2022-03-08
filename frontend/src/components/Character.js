@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { CharacterHeader, CharacterTitle, Grid, GridItem, Typography } from './UI/Elements';
 import {object} from 'prop-types';
 import { CharacterProfile } from './CharacterProfile';
 
 const Character = ({character}) => {
-    console.log(character);
   return (
     <>
       <CharacterHeader>
@@ -30,4 +29,4 @@ const Character = ({character}) => {
 Character.propTypes = {
     character: object.isRequired
 }
-export default Character
+export default memo(Character);
