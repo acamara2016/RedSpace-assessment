@@ -24,7 +24,7 @@ function App() {
     setError(null);
     setCharacter({});
     try {
-      const data = await axios.get(`https://red-space-assessment.herokuapp.com/api/${id}`);
+      const data = await axios.get(`http://localhost:3001/api/${id}`);
       setCharacter(data.data);
     } catch(error) {
       setError(error);
