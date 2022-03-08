@@ -1,5 +1,5 @@
 # RedSpace-assessment 
 
-How to run locally:
-Backend: npm install | npm start
-Frontend: npm install | npm start 
+How to run locally: <br/>
+Backend: npm install | npm start <br/>
+Frontend: npm install | npm start <br/>
